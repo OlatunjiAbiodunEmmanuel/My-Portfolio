@@ -56,7 +56,7 @@ export const experiencesData = [
     date: "April 2023 - October 2023",
 },
 {
-    title: "Web Developer Intern",
+    title: "Larava Coding School, Web Developer Intern",
     location: "Nigeria, Intern",
     description:
         "Reviewed students' code for adherence to best practices, tested web applications, and provided constructive feedback to improve functionality. Assisted students in understanding user requirements and encouraged innovative solutions for application development.",
