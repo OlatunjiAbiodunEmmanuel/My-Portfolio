@@ -40,7 +40,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer (Next.js)",
+    title: "Fore Media Group, Web Developer (Next.js)",
     location: "Nigeria, Onsite",
     description:
         "Developed and maintained responsive web applications using Next.js, ensuring high performance and seamless user experience. Collaborated with UI/UX designers to implement pixel-perfect designs and enhance overall user interaction. Worked closely with backend developers to consume APIs and optimize application performance. Notable projects include Fatherland Global and Fameet mobile/web app.",
@@ -48,7 +48,7 @@ export const experiencesData = [
     date: "October 2023 - February 2024",
 },
 {
-    title: "Web Developer",
+    title: "FRSC, Web Developer",
     location: "Nigeria, Remote",
     description:
         "Collaborated with UI/UX designers to transform design mockups into responsive and user-friendly interfaces. Worked with backend developers to establish effective communication between front-end and back-end components.",
