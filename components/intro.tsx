@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import abbey from "@/public/img.jpg";
 import { MotionDiv } from "./MotionDiv";
 import Link from "next/link";
@@ -16,6 +16,14 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Intro() {
   const {ref} = useSectionInView('Home', 0.5);
   const {setActiveSection,setTimeOfLastClick} = useActiveSectionContext();
+
+  const [yearsOfExperience, setYearsOfExperience] = useState(0);
+
+  useEffect(() => {
+    const startYear = 2021;
+    const currentYear = new Date().getFullYear();
+    setYearsOfExperience(currentYear - startYear);
+  }, []);
 
   return (
     <section
@@ -59,15 +67,14 @@ export default function Intro() {
       <MotionDiv
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-      >
-        <p className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
-          <span className="font-bold">Hi, I&apos;m Abiodun.</span> I&apos;m a{" "}
-          <span className="font-bold">frontend developer</span> with{" "}
-          <span className="font-bold">2 years </span>
-          of experience in designing and implementing web applications. I enjoy
-          building <span className="italic">sites & apps</span> with Proven
-          ability to deliver high quality code on time and within budget.
-        </p>
+      >    <p className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
+      <span className="font-bold">Hi, I&apos;m Abiodun.</span> I&apos;m a{" "}
+      <span className="font-bold">frontend developer</span> with{" "}
+      <span className="font-bold">{yearsOfExperience} years </span>
+      of experience in designing and implementing web applications. I enjoy
+      building <span className="italic">sites & apps</span> with proven ability
+      to deliver high-quality code on time and within budget.
+    </p>
       </MotionDiv>
       <MotionDiv
         className="flex flex-col sm:flex-row gap-4 justify-center 

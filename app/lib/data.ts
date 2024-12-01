@@ -37,29 +37,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Coding school",
-    location: "Nigeria",
+    title: "Web Developer (Next.js)",
+    location: "Nigeria, Onsite",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as an intern front-end developer and also developing myself along the way.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Nigeria",
-    description:
-      "I worked as a front-end developer with FRSC also developing my skills along the way.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
-    title: "Frontend Developer",
-    location: "Nigeria",
-    description:
-      "Frontend developer working at fatherland global community as a React Developer (NextJs), also a freelancer. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
+        "Developed and maintained responsive web applications using Next.js, ensuring high performance and seamless user experience. Collaborated with UI/UX designers to implement pixel-perfect designs and enhance overall user interaction. Worked closely with backend developers to consume APIs and optimize application performance. Notable projects include Fatherland Global and Fameet mobile/web app.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
-  },
+    date: "October 2023 - February 2024",
+},
+{
+    title: "Web Developer",
+    location: "Nigeria, Remote",
+    description:
+        "Collaborated with UI/UX designers to transform design mockups into responsive and user-friendly interfaces. Worked with backend developers to establish effective communication between front-end and back-end components.",
+    icon: React.createElement(CgWorkAlt),
+    date: "April 2023 - October 2023",
+},
+{
+    title: "Web Developer Intern",
+    location: "Nigeria, Intern",
+    description:
+        "Reviewed students' code for adherence to best practices, tested web applications, and provided constructive feedback to improve functionality. Assisted students in understanding user requirements and encouraged innovative solutions for application development.",
+    icon: React.createElement(LuGraduationCap),
+    date: "July 2022 - April 2023",
+},
+
 ] as const;
 
 export const projectsData = [
@@ -115,9 +116,14 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Tailwind Css",
   "MongoDB",
   "Redux",
   "Framer Motion",
-  "Figma"
+  "Figma",
+  "Prisma",
+  "Shadcn",
+  "Material UI",
+  "App Write",
+  "FireBase"
 ] as const;
