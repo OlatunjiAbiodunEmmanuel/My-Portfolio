@@ -7,6 +7,9 @@ import community from "@/public/community.jpg";
 import esmaz from "@/public/event.jpg";
 import todo from "@/public/todolist.jpg";
 import anime from "@/public/image.jpg";
+import Doc from "@/public/DocStream.jpg";
+import Ostore from "@/public/ostore.jpg";
+import wednesday from "@/public/wednesday.jpg";
 
 export const links = [
   {
@@ -64,6 +67,28 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "DocStream",
+    description:
+      "A go to collaborator editor, where multple users can collaborate on a document, and also comment on it",
+    tags: ["Next Js","Typescript","Tailwind Css","Liveblocks", "Lexical","Clerk"],
+    imageUrl: Doc,
+    site:"https://doc-stream-plny.vercel.app/",
+  },  {
+    title: "Wdnesday with wonder",
+    description:
+      "A project where one is safe, anonymous and users can openly share and discuss relationship issues, health concerns, lifestyle choices, and questions about sex.",
+    tags: ["Next Js","Typescript","Tailwind Css", "FramerIMotion", "React Email"],
+    imageUrl: wednesday,
+    site:"https://wednesday-with-wonder.vercel.app/",
+  },  {
+    title: "Maravilla Casual",
+    description:
+      "A Fullstack ecommerce website ",
+    tags: ["Next Js","Typescript","App-write", "Stripe","Tailwind Css","Prisma","MongoDb","Material UI"],
+    imageUrl: Ostore,
+    site:"https://o-riginal-store.vercel.app/",
+  },
   {
     title: "Fameet",
     description:
