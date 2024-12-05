@@ -61,8 +61,17 @@ export const experiencesData = [
     description:
         "Reviewed students' code for adherence to best practices, tested web applications, and provided constructive feedback to improve functionality. Assisted students in understanding user requirements and encouraged innovative solutions for application development.",
     icon: React.createElement(LuGraduationCap),
-    date: "July 2022 - April 2023",
+    date: "April 2022 - April 2023",
 },
+{
+  title: "Access Bank Plc, Web Developer",
+  location: "Nigeria, Web Developer",
+  description:
+      "Worked closely with UI/UX designers to translate design mock-ups into responsive, user-friendly interfaces, implementing features to improve user engagement and interaction.",
+  icon: React.createElement(LuGraduationCap),
+  date: "Nov 2019 - Feb 2022",
+},
+
 
 ] as const;
 
@@ -92,7 +101,7 @@ export const projectsData = [
   {
     title: "Fameet",
     description:
-      "I worked as a React Developer on this startup project which aims to create a virtual space where families connect, explore their roots, and celebrate shared history.",
+      "I worked as a React Developer on this startup project which aims to create a virtual space where families connect, explore their roots, and celebrate shared history. NOT YET LIVE",
     tags: ["React", "Next.js", "TypeScript", "Tailwind","Shadcn",],
     imageUrl: fammet,
     site:"NOT YET LIVE",
@@ -100,7 +109,7 @@ export const projectsData = [
   {
     title: "FatherLand Community",
     description:
-      "Website where Africans unite, providing an Afrocentric lifestyle and diverse products. Members immerse in Africa's rich heritage and experience.",
+      "Website where Africans unite, providing an Afrocentric lifestyle and diverse products. Members immerse in Africa's rich heritage and experience. NOT YET LIVE",
     tags: ["React", "TypeScript", "Next.js", "Tailwind","Shadcn",],
     imageUrl: community,
     site:"NOT YET LIVE",
