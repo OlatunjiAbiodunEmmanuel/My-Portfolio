@@ -51,7 +51,6 @@ export default function Project({
               </li>
             ))}
           </ul>
-          {/* <a href={site} target="_blank" className="text-gray-750">{site}</a> */}
         </div>
 
     

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/app/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
@@ -10,6 +10,9 @@ import SectionHeading from "./Section-heading";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
 
   return (
     <motion.section
@@ -33,8 +36,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline text-blue-300" href="mailto:olatunjia889@gmail.com">
-        olatunjia889@gmail.com
+        <a className="underline text-blue-300" href="mailto:abiodunemmanuelolatunji@gmail.com">
+        abiodunemmanuelolatunji@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -50,6 +53,9 @@ export default function Contact() {
           }
 
           toast.success("Email sent successfully!");
+                 
+          setEmail("");
+          setMessage("");
         }}
       >
         <input
@@ -58,6 +64,8 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
+          value={email} 
+          onChange={(e) => setEmail(e.target.value)} 
           placeholder="Your email"
         />
         <textarea
@@ -65,6 +73,8 @@ export default function Contact() {
           name="message"
           placeholder="Your message"
           required
+          value={message} 
+          onChange={(e) => setMessage(e.target.value)}
           maxLength={5000}
         />
         <SubmitBtn />
