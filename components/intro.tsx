@@ -48,7 +48,7 @@ export default function Intro() {
               height="400"
               priority={true}
               className="rounded-full
-                h-44 w-24 border-white object-cover shadow-xl border-[0.20rem] md:w-64 md:h-64"
+                h-44 w-24 border-white object-cover shadow-xl border-[0.20rem] md:w-96 md:h-96"
             />
           </MotionDiv>
           {/* <MotionDiv

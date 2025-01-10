@@ -20,7 +20,7 @@ export default function About() {
       <p className="mb-3">
         Having worked in both {" "}
         <span className="font-medium">
-          financial institutions and food companies
+          financial institutions
         </span>
         , I made the decision to pursue my passion for programming. Enrolling in
         a coding school, I acquired skills in{" "}
