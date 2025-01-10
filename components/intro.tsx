@@ -20,7 +20,7 @@ export default function Intro() {
   const [yearsOfExperience, setYearsOfExperience] = useState(0);
 
   useEffect(() => {
-    const startYear = 2021;
+    const startYear = 2020;
     const currentYear = new Date().getFullYear();
     setYearsOfExperience(currentYear - startYear);
   }, []);
@@ -48,7 +48,7 @@ export default function Intro() {
               height="400"
               priority={true}
               className="rounded-full
-                h44 w24 border-white object-cover shadow-xl border-[0.20rem]"
+                h-44 w-24 border-white object-cover shadow-xl border-[0.20rem] md:w-64 md:h-64"
             />
           </MotionDiv>
           {/* <MotionDiv
